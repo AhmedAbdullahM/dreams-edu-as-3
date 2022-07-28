@@ -3,8 +3,18 @@
         display: flex;
         flex-direction: column;
     }
-   
+   .companies{
+        display: none;
+   }
 }
+
+@media screen and (max-width:992px){
+    .companies{
+        display: none;
+    }
+}
+
+/* color  */
 .gray-100{
     color: rgb(220, 216, 216);
 }
